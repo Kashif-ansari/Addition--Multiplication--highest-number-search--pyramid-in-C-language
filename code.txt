@@ -1,0 +1,82 @@
+#include<stdio.h>
+int main(){
+int num;
+int num2;
+int div;
+float result;
+printf("Kashif\n");
+
+int i;
+for(i = 0; i< 5: i++){
+printf("%d",i)
+}
+return 0;
+
+
+}
+
+
+
+#include<stdio.h>
+int main(){
+int num;
+int num2;
+int div;
+float result;
+printf("Kashif\n");
+printf("Please enter 2 integer: \t");
+
+scanf("%d %d", &num, &num2);
+printf("Enter 1 for addition 2 for subtraction 3 for division 4 for multiplication: \t");
+scanf("%d",&div);
+if(div == 1){
+result = num + num2;
+}
+
+if(div== 2){
+result = num - num2;
+}
+
+if(div == 3){
+result = num / num2;
+}
+
+if(div ==4){
+result = num * num2;
+}
+printf("Result is \t %f", result);
+
+return 0;
+
+
+}
+
+#include<stdio.h>
+int main(){
+int num;
+int num2;
+int div;
+float result;
+printf("Kashif\n");
+
+int i;
+for(i = 0; i< 5; i++){
+printf("%d\n",i);	
+}
+i = 0;
+while(i <5){
+printf("%d\n",i);
+i++;
+}
+
+int array[4]={4,5,6,7};
+for(int i ; i<4; i++){
+printf("%d \n",array[i]);
+}
+return 0;
+
+
+}
+
+
+
